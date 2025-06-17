@@ -10,7 +10,7 @@ export const myProjects = [
       "Aims to simplify day-to-day business complexities, improve administrative processes, and enhance customer experience.",
       "Utilizes GitHub for version control and effective collaboration.",
     ],
-    href: "[https://github.com/ThisenMandiv/JADE1](https://github.com/ThisenMandiv/JADE1)",
+    href: "https://github.com/ThisenMandiv/JADE1",
     logo: "",
     image: "/assets/projects/jade.png",
     tags: [
@@ -58,7 +58,7 @@ export const myProjects = [
       "Aims to provide a comprehensive overview of financial health through a user-friendly interface.",
       "Built using Kotlin.",
     ],
-    href: "",
+    href: "https://github.com/ThisenMandiv/WalletWise",
     logo: "",
     image: "/assets/projects/walletWise.png",
     tags: [
@@ -85,7 +85,7 @@ export const myProjects = [
       "Showcases various projects, providing details and links to live demos or repositories.",
       "Highlights key technical skills and professional experience.",
     ],
-    href: "",
+    href: "https://github.com/ThisenMandiv/Portfolio",
     logo: "",
     image: "/assets/projects/portfolio.png",
     tags: [
