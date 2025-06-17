@@ -58,7 +58,7 @@ export const myProjects = [
       "Aims to provide a comprehensive overview of financial health through a user-friendly interface.",
       "Built using Kotlin.",
     ],
-    href: "https://github.com/ThisenMandiv/WalletWise",
+    href: "https://github.com/ThisenMandiv/FinanceTrackerApp",
     logo: "",
     image: "/assets/projects/walletWise.png",
     tags: [
@@ -116,17 +116,17 @@ export const myProjects = [
 export const mySocials = [
   {
     name: "GitHub",
-    href: "[https://github.com/ThisenMandiv](https://github.com/ThisenMandiv)",
+    href: "https://github.com/ThisenMandiv",
     icon: "/assets/socials/github.svg",
   },
   {
     name: "Linkedin",
-    href: "[https://www.linkedin.com/in/thisen-mandiv-0b78a136b/](https://www.linkedin.com/in/thisen-mandiv-0b78a136b/)",
+    href: "https://www.linkedin.com/in/thisen-mandiv-0b78a136b",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
     name: "Instagram",
-    href: "[https://www.instagram.com/thisenmandiv_/](https://www.instagram.com/thisenmandiv_/)",
+    href: "https://www.instagram.com/thisenmandiv_",
     icon: "/assets/socials/instagram.svg",
   },
 ];
