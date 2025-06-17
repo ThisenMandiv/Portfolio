@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { motion } from "motion/react";
-function Navigation() {
+import ResumeModal from "../components/ResumeModal";
+
+function Navigation({ onResumeClick }) {
   return (
     <ul className="nav-ul">
       <li className="nav-li">
@@ -23,11 +25,19 @@ function Navigation() {
           Contact
         </a>
       </li>
+      <li className="nav-li">
+        <a className="nav-link" href="#resume">
+          Resume
+        </a>
+      </li>
     </ul>
   );
 }
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [showResume, setShowResume] = useState(false);
+
   return (
     <div className="fixed inset-x-0 z-20 w-full backdrop-blur-lg bg-primary/40">
       <div className="mx-auto c-space max-w-7xl">
@@ -49,7 +59,7 @@ const Navbar = () => {
             />
           </button>
           <nav className="hidden sm:flex">
-            <Navigation />
+            <Navigation onResumeClick={() => setShowResume(true)} />
           </nav>
         </div>
       </div>
@@ -62,10 +72,11 @@ const Navbar = () => {
           transition={{ duration: 1 }}
         >
           <nav className="pb-5">
-            <Navigation />
+            <Navigation onResumeClick={() => setShowResume(true)} />
           </nav>
         </motion.div>
       )}
+      {showResume && <ResumeModal closeModal={() => setShowResume(false)} />}
     </div>
   );
 };

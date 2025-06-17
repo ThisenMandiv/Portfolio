@@ -20,9 +20,9 @@ const About = () => {
             />
           </div>
           <div className="z-10">
-            <p className="headtext">Hi, I'm Thisen Mandiv</p>
-            <p className="subtext">
-              I'm a Software Engineering undergraduate with a strong passion for building impactful web and software solutions. I’ve developed hands-on experience in both frontend and backend technologies through personal and academic projects.
+            <p className="headtext !text-white" style={{ color: '#fff' }}>Hi, I'm Thisen Mandiv</p>
+            <p className="subtext !text-white" style={{ color: '#fff' }}>
+              I'm a Software Engineering undergraduate with a strong passion for building impactful web and software solutions. I've developed hands-on experience in both frontend and backend technologies through personal and academic projects.
             </p>
           </div>
           <div className="absolute inset-x-0 pointer-events-none -bottom-4 h-1/2 sm:h-1/3 bg-gradient-to-t via-blue-500/50
