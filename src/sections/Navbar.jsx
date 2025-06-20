@@ -1,6 +1,6 @@
-import { useState } from "react";
 import { motion } from "motion/react";
 import ResumeModal from "../components/ResumeModal";
+import { useState } from "react";
 
 function Navigation({ onResumeClick }) {
   return (
