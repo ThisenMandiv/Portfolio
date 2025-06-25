@@ -91,6 +91,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
+            
             Seeking an IT-related internship
           </motion.p>
         </div>
