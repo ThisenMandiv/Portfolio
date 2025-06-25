@@ -48,7 +48,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Passionate About Building Real-World Solutions
+            Seeking an IT-related internship
           </motion.p>
         </div>
       </div>
@@ -91,7 +91,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.8 }}
           >
-            Exploring the Tech World
+            Seeking an IT-related internship
           </motion.p>
         </div>
       </div>
