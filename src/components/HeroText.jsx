@@ -28,7 +28,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Software Engineering Undergraduate
+             Information Technology Undergraduate
           </motion.p>
           <motion.div
             variants={variants}
@@ -71,7 +71,7 @@ const HeroText = () => {
             animate="visible"
             transition={{ delay: 1.2 }}
           >
-            A Software Engineering Undergraduate
+             Information Technology Undergraduate
           </motion.p>
           <motion.div
             variants={variants}

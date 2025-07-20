@@ -122,7 +122,7 @@ export const mySocials = [
   },
   {
     name: "Linkedin",
-    href: "https://www.linkedin.com/in/thisen-mandiv-0b78a136b",
+    href: "https://www.linkedin.com/in/art-mandiv-503169372/",
     icon: "/assets/socials/linkedIn.svg",
   },
   {
